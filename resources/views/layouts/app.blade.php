@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
     <title>Kanban Board</title>
+    <style>
+        @yield('custom-style')
+    </style>
 </head>
 <body>
-<div class="container mt-5">
+<div class="container mt-5 col-md-8">
     @yield('content')
 </div>
 
